@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 const corsOptions={
-    origin:"https://twitter-backend-3qfb.onrender.com",
+    origin:"https://localhost:3000",
     credentials:true,
 }
 app.use(cors(corsOptions));
