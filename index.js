@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 const corsOptions={
-    origin:"https://localhost:3000",
+    origin:"https://twittersiteapp.netlify.app",
     credentials:true,
 }
 app.use(cors(corsOptions));
